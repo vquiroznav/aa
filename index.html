@@ -4,11 +4,6 @@
     <meta charset="UTF-8" />
     <title>Botones sin nombre</title>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        padding: 20px;
-      }
-
       button {
         padding: 10px 20px;
         margin: 5px;
@@ -18,12 +13,18 @@
     </style>
   </head>
   <body>
-    <h1>Titulo mal esfritpo</h1>
+    <h1>Titulo mal escrito</h1>
 
     <!-- Botones sin texto -->
     <button id="btn1"></button>
     <button id="btn2"></button>
     <button id="btn3"></button>
+    <script>
+      // Ejemplo de cómo ponerles nombre luego
+      document.getElementById('btn1').textContent = 'Victor';
+      document.getElementById('btn2').textContent = 'Diego';
+      document.getElementById('btn3').textContent = 'Valentina';
+    </script>
 
     <!-- Puedes agregar el nombre después con JavaScript -->
     <script>
